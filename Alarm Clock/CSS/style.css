@@ -22,13 +22,13 @@ button{
     border: 1px solid #ccc;
     border-radius: 8px;
     outline: 0;
-    color: #fff;
+    color: #d43131;
     transition: all ease 300ms;
 }
-button: hover{
+/* button: hover{
 color: #333;
 background: #fff
-}
+} */
 
 /* center contert vertically and horizontally */
 
