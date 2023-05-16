@@ -1,0 +1,474 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.logo_image
+{
+    padding-top: 40px;
+    margin-left:60px;
+}
+.background-image {
+    background-image: url('./banner.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    
+
+}
+.background-image_2 {
+    background-image: url('./Group\ 217.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+body{ 
+
+  flex-direction: column;
+  align-items:  center;
+  justify-content: right;
+  height:80vh
+
+}
+
+.first_text
+{
+    font-family: Aktifo A Book;
+    font-size: 30px; 
+    margin-top:5px;
+    margin-left:110px;
+}
+.second_text
+{
+    margin-top:20px;
+    margin-left:110px;
+    font-size: 20px; 
+}
+.part_1_img_194 , .part_2_img_195, .part_3_img_2ne
+{
+    /* padding-bottom: 40px; */
+   display:inline-block;
+   padding-top: 10px;
+   width: 40px;
+   height: auto;
+}
+.part_3_img_2ne
+{
+    display:inline-block;
+   padding-top: 10px;
+   width: 60px;
+   height: auto;
+}
+.part_1_img_195
+{
+
+    /* padding-bottom: 40px; */
+    display:inline-block;
+    padding-left: 90vh;
+   padding-top: 10px;
+   width: 40px;
+   height: auto;
+
+}
+
+.text1
+{
+    margin-left: 110px;
+    padding-bottom: 100px;
+    color: grey;
+}
+
+.text3
+{
+    margin-top: -20px;
+    margin-left: 335px;
+    color: grey;
+}
+.imge_tile
+{
+    display: flex;
+
+}
+.part_1_i
+{
+    margin-left: 100px;
+    display:block;
+    width:80px;
+    height:80px;
+    border-radius: 90px;
+    text-align: center;
+    margin-top: 30px;
+    background: #292929;
+    line-height: 1.7em;
+}
+
+.part_2_i
+{
+    display:block;
+    display:block;
+    width:80px;
+    height:80px;
+    border-radius: 90px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 150px;
+    background: #292929;
+    line-height: 1.7em;
+}
+.part_3_i
+{
+    display:block;
+    display:block;
+    width:80px;
+    height:80px;
+    border-radius: 90px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 180px;
+    background: #292929;
+    line-height: 1.7em;
+}
+.text
+{
+    width: 600px;
+}
+.text_part_1
+{
+    width: 170px;
+    text-align: center;
+
+    /* text-align: center; */
+}
+.text_part_2
+{
+    width: 250px;
+    text-align: center;
+}
+.heading_tile_1
+{
+    font-family:Aktifo A Book ;
+    margin-left:  90px ;
+    margin-top: 5px;
+    color: #5D5D5D;
+}
+.heading_tile_2
+{
+    font-family:Aktifo A Book ;
+    margin-left:  160px ;
+    margin-top: 5px;
+    color: #5D5D5D;
+    
+}
+.heading_tile_3
+{
+    font-family:Aktifo A Book ;
+    margin-left:  190px ;
+    margin-top: 5px;
+    color: #5D5D5D;
+    
+}
+.container
+{
+    display: grid;
+    position: absolute; 
+    bottom: 0; 
+    border-radius: 15px;
+    background: #ffffff;
+    padding: 40px;
+    margin-right:150px;
+    margin-left:850px;
+}
+
+@font-face {
+    font-family: Aktifo A Light;
+    src:url("/Users/shivangigupta/Desktop/HTML_Project/Website/aktifoa-light.otf");
+}
+@font-face {
+    font-family: Aktifo A SemiBold Regular;
+    src:url("/Users/shivangigupta/Desktop/HTML_Project/Website/aktifoa-semibold.otf");
+}
+@font-face {
+    font-family: Aktifo A Book;
+    src:url("/Users/shivangigupta/Desktop/HTML_Project/Website/aktifoa-book.otf");
+}
+@font-face {
+    font-family: Aktifo A SemiBold;
+    src:url("aktifoa-semibold.otf");
+}
+@font-face {
+    font-family: Aktifo A Medium;
+    src:url("aktifoa-medium.otf");
+}
+h2{
+    font-family: Aktifo A SemiBold Regular;
+    font-size: 26px; 
+    font-weight: 600; 
+    text-align: left;
+    padding-bottom: 8px;    
+} 
+p{
+    font-family: Aktifo A Book;
+    font-size: 10px;
+}
+label{
+    font-family: Aktifo A Book;
+    font-size: 10px;
+    padding-bottom: 5px;
+}
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.input-box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-bottom: 15px;
+}
+
+.input -box:nth-child(2n){
+    justify-content: end;
+}
+.input-box input{
+    height:30px;
+    width: 95%;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+select.state{
+    font-size: 30px ;
+    width: 200%;
+}
+.describe_ques_class{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+select.describe_ques{
+    font-size: 30px ;
+    width: 200%;
+}
+.preferred_class{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-bottom: 10px;
+
+}
+select.preferred{
+    font-size: 30px ;
+    width: 200%;
+
+}
+.description_label
+{
+    padding-bottom: 20px;
+    padding-top: 10px
+}
+textarea
+{  
+
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+
+}
+input[type="checkbox"] { 
+    position: absolute;
+}
+input[type="checkbox"] ~ label { 
+    padding-left:1.4em;
+    display:inline-block;
+}
+.alert{
+    padding-top: 10px
+
+}
+#image_2_text_1
+{
+    font-family: Aktifo A SemiBold;
+    padding-top: 120px;
+    font-size: 30px;
+}
+.image_2_text__class
+{
+    margin-left: 100px;
+
+}
+#image_2_text_2 , .image_2_text__class_ul
+{
+    font-family: Aktifo A Light;
+    font-size: 15px;
+}
+#image_2_text_3
+{
+    font-family: Aktifo A Medium;
+    font-size: 15px;
+}
+.container_3 {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    column-gap: 5px;
+background-color: #E5E5E5; 
+  }
+#image_3_text_1
+{
+    font-family: Aktifo A SemiBold ;
+    margin-top: 30vh;
+    font-size: 60px;
+    padding-bottom: 20px;
+}
+.ul_container
+{
+    margin-left:120px ;
+    margin-right: 850px;
+}
+
+#footer {
+    height: 180px;
+    background-color: #1A1A1A;
+    z-index: 150;
+  }
+
+#footer_push {
+    clear: both;
+    height: 50px;
+}
+#content_p{
+
+    font-family: Aktifo A Light;
+    font-size: 20px;
+    margin-left: 80px;
+    color: #FFFFFF;
+
+}
+.logo_image_footer
+{
+    margin-top: 10px;
+    margin-left: 80px;
+
+}
+.column {
+    float: left;
+    width: 25%;
+}
+.content_p_2
+{
+    font-family: Aktifo A Light;
+    font-size: 15px;
+    margin-left: 80px;
+    color: #FFFFFF;
+}
+.content_p_3,.content_p_4
+{
+    font-family: Aktifo A Light;
+    font-size: 13px;
+    margin-left: 40px;
+
+    color: #727272;
+}
+#footer_2 {
+    height: 30px;
+    background-color: #FFFFFF;
+    z-index: 150;
+  }
+
+#content_p_2_footer
+
+{
+    font-family: Aktifo A Light;
+    margin-top: 20px;
+    color: #848484;
+    text-align: center;
+}
+
+.part_3{
+    display:block;
+    width:100px;
+    height: 100px;
+    border-radius: 50px;
+    font-size: 25px;
+    text-align: center;
+    margin-right: 10px;
+    margin-top: 30px;
+    background: #fff;
+    line-height: 1.7em;
+    
+}
+
+
+.part_3_img{
+   display:inline-block;
+   padding-top: 25px;
+   width: 50px;
+   height: auto;
+}
+.linux-details {
+
+    display: flex;
+    align-items: center;    
+    width: 600px;
+    
+    }
+.heading_part_3
+{
+    padding-top: 10px;
+    padding-left: 20px;
+    font-family:Aktifo A Medium ;
+    font-size: 18px;
+}
+.content_part_3
+{
+    padding-left: 20px;
+    font-family:Aktifo A Light ;
+    font-size: 11px;
+}
+.container_3_div
+{
+    padding-left: 20%;
+
+}
+.text
+{
+    padding-top: 5%;
+}
+.submit_button ,.button_inquire, .button_request{
+    font-family: Aktifo A SemiBold ;
+    background-color: #F26621;
+    border: none;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+.button-contatiner
+{
+    padding-top: 10px;
+    text-align: center;
+}
+.button-contatiner_2
+{
+    padding-top: 40px;
+    padding-left: 100px;
+
+}
+.button-contatiner_3
+{
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
+
